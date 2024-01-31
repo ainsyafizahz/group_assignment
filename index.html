@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day Trip To Dabong</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+
+<style>
+    body, html 
+    {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+      background-color: lightgoldenrodyellow;
+    }
+
+    .bgimg 
+    {
+      background-position: center;
+      background-size: cover;
+      background-image: url(image/cover_1.jpg);
+      min-height: 100%;
+    }
+
+    .trip  
+    {
+      display: none;
+    }
+</style>
+
+<body>
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#trip" class="w3-button w3-block w3-black">TRIP</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#gallery" class="w3-button w3-block w3-black">GALLERY</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">3 November 2023</span>
+    <center>
+      <span class="w3-tag">ain</span>
+      <span class="w3-tag">zana</span>
+      <span class="w3-tag">marie</span>
+      <span class="w3-tag">adlin</span>
+    </center>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:60px">DAY TRIP TO</span><br>
+    <span class="w3-text-white" style="font-size:100px">DABONG</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag"> Dabong, Kuala Krai, Kelantan</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3- w3- w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:850px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">DABONG</span></h5>
+    <p style="text-align: justify;" >Dabong, a hidden gem in Kelantan, Malaysia, beckons with not only its natural wonders but also unique attractions like Gua Ikan, Stong Hill Resort, and Jelawang Pipe Resort. Venture into the depths of Gua Ikan, a captivating cave with intricate formations, offering a spelunking adventure that reveals the mysteries of the underground world. Stong Hill Resort provides a cozy retreat amidst the lush surroundings, offering breathtaking views of the Kelantan River and the Taman Negara rainforest.</p>
+    <p style="text-align: justify;" >For a distinctive experience, Jelawang Pipe Resort combines luxury with nature, allowing you to unwind in stylish accommodation while being surrounded by the soothing sounds of flowing water from its ingenious water pipe setup. Join us on this vlog as we delve into the unique attractions that make Dabong a diverse and unforgettable destination!</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Travel far, laugh often and create memories that last a lifetime. Girls trip vibes!"</i></p>
+    </div>
+    <img src="https://ak-d.tripcdn.com/images/1i61f2224t40bu7j4AFC3.jpg?proc=source/trip" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><i>A photo of Gunung Stong view</i></p>
+  </div>
+</div>
+
+<!-- Trip Container -->
+<div class="w3-container" id="trip">
+  <div class="w3-content" style="max-width:850px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OUR TRIP</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openTrip(event, 'Tentative');" id="myLink">
+        <div class="w3-col s6 tablink">Places</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openTrip(event, 'Cost');">
+        <div class="w3-col s6 tablink">Cost</div>
+      </a>
+    </div>
+
+    <div id="Tentative" class="w3-container trip w3-padding-48 w3-card">
+      <h5>4:25 a.m.</h5>
+      <p class="w3-text-grey">The day kicked off with the soft hum of the train wheels as we departed Wakaf Bharu, embarking on a sunrise-filled journey to Dabong. The anticipation in the air was palpable, setting the stage for a day of adventure and exploration.</p><br>
+      <center>
+        <img src="image/train2.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+        <img src="image/train.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+      </center>
+
+      <h5>7:30 a.m.</h5>
+      <p class="w3-text-grey">The train gracefully pulled into Dabong's station, where we were warmly greeted by our enthusiastic tour guide. The air was crisp, and the surroundings exuded a serene charm that hinted at the wonders awaiting us.</p><br>
+      <center>
+        <img src="image/dabong1.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+      </center>
+
+      <h5>8:00 a.m.</h5>
+      <p class="w3-text-grey">Our first stop, Gua Ikan, unfolded like a page from a history book. The guide painted vivid tales of the cave's past, intertwining legends and facts. Amidst ancient rock formations and mysterious shadows, we immersed ourselves in the captivating atmosphere, capturing the essence of the moment with countless photographs.</p><br>
+      <center>
+        <img src="image/gua_ikan.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+      </center>
+
+      <h5>8:45 a.m.</h5>
+      <p class="w3-text-grey">Energized by history, we strolled to a nearby restaurant for a delightful breakfast. The aroma of local delicacies wafted through the air, and the warmth of the morning sun added a golden touch to our communal feast.</p><br>
+      <center>
+        <img src="image/bfast.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+      </center>
+    
+      <h5>9:15 a.m.</h5>
+      <p class="w3-text-grey">The next chapter of our adventure awaited at Jelawang Pipe Resort. The Flying Fox experience was nothing short of exhilarating, our laughter echoing through the lush surroundings as we soared above the treetops. The ATV ride that followed was an adrenaline-fueled journey, navigating bumpy and challenging terrains that revealed breathtaking panoramic views of the landscape.</p>
+      <center>
+        <img src="image/ffox.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+        <img src="image/atv.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+      </center>
+
+       <h5>11:50 a.m.</h5>
+      <p class="w3-text-grey">Our convoy then wound its way to Stong Hill Resort, a gateway to a hidden gem – a waterfall nestled in the heart of nature. The hike, though demanding, unfolded like a story, with each step revealing a new chapter in the form of scenic vistas and untouched wilderness.</p><br>
+      <center>
+        <a href="https://www.tripadvisor.com.my/Hotel_Review-g17464282-d17456970-Reviews-Stong_Hill_Resort-Dabong_Kelantan.html" target="_blank"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/65/1d/53/stong-hill-resort.jpg?w=1200&h=-1&s=1"style align="center; width="150 height="150"; margin-bottom="50px"; padding-bottom="50px; "></a>
+      </center>
+
+      <h5>12:40 p.m.</h5>
+      <p class="w3-text-grey">The payoff was awe-inspiring – a majestic waterfall framed by lush greenery. We couldn't help but be captivated by its beauty. Exhausted but invigorated, we plunged into the refreshing waters, the cool mist rejuvenating our spirits. Our tour guide, a true maestro, treated us to a cup of his self-made coffee, a delightful blend that complemented the natural surroundings.</p><br>
+      <center>
+        <img src="image/waterfall.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+        <img src="image/coffee.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+      </center>
+
+      <h5>3:00 p.m.</h5>
+      <p class="w3-text-grey">Reluctantly, we bid farewell to the enchanting waterfall, retracing our steps back to the resort's entrance. Every corner seemed to whisper tales of the day's escapades.</p><br>
+      <center><img src="image/wfall.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; "></center>
+
+      <h5>4:00 p.m.</h5>
+      <p class="w3-text-grey">As the day wound down, we boarded the train back to Dabong's station, bringing our day trip to a close. The memories we etched into the canvas of that day would forever be a tapestry of laughter, awe, and the unspoken camaraderie forged amidst the beauty of Kelantan's hidden treasures.</p><br>
+      <center>
+        <img src="image/home.jpg"style align="center"; width="150" height="150"; margin-bottom="50px"; padding-bottom="50px; ">
+      </center>
+    </div>
+
+    <div id="Cost" class="w3-container trip w3-padding-48 w3-card">
+      <h5><b>Activity</b></h5>
+      <p class="w3-text-grey">ticket train - <b>RM 10.00/pax (round-trip)</b></p>
+      <p class="w3-text-grey">foods - <b>RM 20.00/pax</b></p>
+      <p class="w3-text-grey">transport - <b>RM 150.00</b></p>
+      <p class="w3-text-grey">waterfall hiking - <b>RM 150.00</b></p>
+      <p class="w3-text-grey">flying fox - <b>RM 15.00/pax</b></p>
+      <p class="w3-text-grey">ATV ride - <b>RM 35.00/pair</b></p>
+      
+      <h5><b>Entrance</b></h5>
+      <p class="w3-text-grey">Gua Ikan - <b>RM 2.00/pax</b></p>
+      <p class="w3-text-grey">Stong Hill Resort - <b>RM 5.00/pax</b></p>
+      <p class="w3-text-grey">Jelawang Pipe Resort - <b>RM 3.00/car</b></p>
+    
+      <h5><b>TOTAL : RM141.50/pax</b></h5>
+      <h5><b>TOTAL 4pax : RM566</b></h5>
+    </div>  
+    
+  </div>
+</div>
+
+<!-- Area Container -->
+
+<div class="w3-container" id="gallery" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:850px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OUR MEMORIAL SNAP</span></h5>
+    <p>Our photos &#128151;</p>
+      <center>
+        <img src="image/1.jpg" height="200px">
+        <img src="image/2.jpg" height="200px">
+        <img src="image/3.jpg" height="200px">
+        <img src="image/4.jpg" height="200px">
+        <img src="image/5.jpg" height="200px">
+        <img src="image/6.jpg" height="200px">
+        <img src="image/7.jpg" height="200px">
+        <img src="image/cover.jpg" height="200px">
+      </center>
+
+    <p>Recap of our trip <3</p>
+      <center>
+        <video src="video/video1.MOV" type="video/MOV" width="300" controls></video>
+        <video src="video/video2.MOV" type="video/MOV" width="309" controls></video>
+      </center>
+  </div>
+</div>   
+
+<!-- Contact -->
+
+<div class="w3-container" id="contact" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:850px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT</span></h5>
+    <p style="text-align: justify;" >Here's our tourguide contact:</p>
+    
+        <strong class="me-2">Phone:</strong>
+        <a href="tel: 011-25167648" class="site-footer-link">
+            (+60)11-2516 7648
+        </a>
+    </p>
+
+    <p class="d-flex">
+        <strong class="me-2">Email:</strong>
+        <a href="mail to:adam02@gmail.com" class="site-footer-link">
+            adam02@gmail.com
+        </a>
+    </p>
+
+    <br>
+
+    <h3><strong>How we can help?</strong></h3>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required=""></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address [eg:Lola@gmail.com]" required="" ></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required=""></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p><small>Copyright &copy; 2023 - Girls Blogspot. All Rights Reserved.</small></p>
+</footer>
+
+<script>
+// Tabbed Trip
+function openTrip(evt, tripName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("trip");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(tripName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
